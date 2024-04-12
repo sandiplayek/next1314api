@@ -7,6 +7,15 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+.abc{
+  border: 1px solid green;
+}
+
+.innerwrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
